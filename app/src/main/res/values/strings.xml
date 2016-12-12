@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Basic AsyncTask</string>
+    <string name="downlaod_button_state_start">Download Start</string>
+    <string name="download_button_state_cancle">Downlaod Cancle</string>
 </resources>
