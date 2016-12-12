@@ -2,8 +2,12 @@ package jyl_cooperation.example.com.basicasynctask;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    TextView downloadStateTextView = null;
+    FileDownloadTask fileDownloadTask = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
